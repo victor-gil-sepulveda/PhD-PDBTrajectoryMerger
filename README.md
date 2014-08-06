@@ -7,9 +7,10 @@ A very simple Python program to merge trajectories of biomolecules in PDB format
 
 ###Mandatory flags
 
-'''Shell
-> python PDBTrajectoryMerger.py -p prefix -d dir -o output_file
-'''
+```Shell
+> python PDBTrajectoryMerger.py -p prefix -d dir -o output_file  
+
+``` 
 
 #### Prefix
 Use the '-p' flag to specify the part of the file name shared by all the files you want to merge. Ex.  
