@@ -5,7 +5,6 @@ A very simple Python program to merge trajectories of biomolecules in PDB format
 
 ##Usage
 
-###Mandatory flags
 
 ```Shell
 > python PDBTrajectoryMerger.py -p prefix -d dir -o output_file  
