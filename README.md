@@ -1,6 +1,7 @@
 #PDB Trajectory Merger
 
-A very simple Python program to merge trajectories of biomolecules in PDB format. Trajectories can have an arbitrary number of frames, which means that it can be used to merge single PDBs too. The only restriction is that all each frame (conformation or system) must be encompassed by  *MODEL* / *ENMDL* tags. If the last frame is broken, the merger will automatically skip it.
+A very simple Python program to merge trajectories of biomolecules in PDB format. Trajectories can have an arbitrary number of frames, which means that it can be used to merge single PDBs too. The only restriction is that every 
+frame (conformation or system) must be encompassed by  *MODEL* / *ENMDL* tags. If the last frame is broken, the merger will automatically skip it.
 
 
 ##Usage
@@ -46,5 +47,5 @@ With '--merge_action' the user can specify the way the frames are added to the m
 
 ### Append
 
-If the flag '--append' is used, the merged frames will be appended to the output file (instead of creating a new ooutput file every time).
+If the flag '--append' is used, the merged frames will be appended to the output file (instead of creating a new output file).
 
